@@ -1,0 +1,28 @@
+{
+  "name": "juris_shacl",
+  "version": "1.0.0",
+  "description": "Standalone client-side TS component managing JSON-LD",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "juris",
+    "shacl",
+    "json-ld",
+    "typescript"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "dependencies": {
+    "jsonld": "^8.3.2"
+  }
+}
